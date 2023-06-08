@@ -1,3 +1,3 @@
 # Lithium
 
-This is gonna be a calculator proxy. Calc is done, proxy soon.
+If you hit "=" three times, you will be redirected to a proxy website.
