@@ -23,4 +23,5 @@ function calculateResult() {
 
 function closePopup() {
   popup.style.display = 'none';
+  window.location.href = 'https://drink.primemath.lol'; // Replace with your desired URL
 }
