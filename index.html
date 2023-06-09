@@ -1,42 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Calculator</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body onload="openPopup()">
-  <h1>Calculator</h1>
-  <div class="calculator">
-    <input type="text" id="display" readonly>
-    <div class="buttons">
-      <button onclick="appendToDisplay('1')">1</button>
-      <button onclick="appendToDisplay('2')">2</button>
-      <button onclick="appendToDisplay('3')">3</button>
-      <button onclick="appendToDisplay('+')">+</button>
-      <button onclick="appendToDisplay('4')">4</button>
-      <button onclick="appendToDisplay('5')">5</button>
-      <button onclick="appendToDisplay('6')">6</button>
-      <button onclick="appendToDisplay('-')">-</button>
-      <button onclick="appendToDisplay('7')">7</button>
-      <button onclick="appendToDisplay('8')">8</button>
-      <button onclick="appendToDisplay('9')">9</button>
-      <button onclick="appendToDisplay('*')">*</button>
-      <button onclick="appendToDisplay('0')">0</button>
-      <button onclick="appendToDisplay('.')">.</button>
-      <button onclick="appendToDisplay('/')">/</button>
-      <button onclick="clearDisplay()">C</button>
-      <button onclick="calculateResult()">=</button>
-    </div>
-  </div>
-
-  <div id="popup" class="popup">
-    <div class="popup-content">
-      <span class="close" onclick="closePopup()">&times;</span>
-      <p>Welcome to the Calculator!</p>
-      <p>Perform your calculations and when you're ready, click "=" three times to go to a special link.</p>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<div class="calculator">
+  <input type="text" id="input" />
+  <input type="text" id="output" />
+  <button id="add">+</button>
+  <button id="subtract">-</button>
+  <button id="multiply">*</button>
+  <button id="divide">/</button>
+  <button id="exponent">^</button>
+  <button id="log">log</button>
+  <button id="sin">sin</button>
+  <button id="cos">cos</button>
+  <button id="tan">tan</button>
+  <button id="clear">C</button>
+  <button id="equals">=</button>
+</div>
